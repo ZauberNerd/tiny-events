@@ -2,7 +2,7 @@
   "name": "small-eventemitter",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "A very small EventEmitter implementation for client- and server-side.",
+  "description": "A very small EventEmitter implementation for client- and server-side code.",
   "main": "lib/index.js",
   "scripts": {
     "test": "tape test/*.js && npm run jshint && npm run jscs",
