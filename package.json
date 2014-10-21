@@ -1,0 +1,35 @@
+{
+  "name": "small-eventemitter",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A very small EventEmitter implementation for client- and server-side.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tape test/*.js && npm run jshint && npm run jscs",
+    "jshint": "jshint -c .jshintrc lib/index.js",
+    "jscs": "jscs --config .jscsrc lib/index.js"
+  },
+  "author": {
+    "name": "ZauberNerd",
+    "email": "zaubernerd@zaubernerd.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:ZauberNerd/small-eventemitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZauberNerd/small-eventemitter/issues"
+  },
+  "devDependencies": {
+    "tape": "~3.0.1",
+    "jscs": "~1.7.3",
+    "jshint": "~2.5.6"
+  },
+  "keywords": [
+    "eventemitter",
+    "emitter",
+    "event",
+    "events",
+    "mediator"
+  ]
+}
