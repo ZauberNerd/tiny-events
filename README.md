@@ -1,4 +1,4 @@
-# small-eventemitter [![Build Status][0]][1]
+# small-eventemitter [![Build Status][0]][1] [![Coverage Status][2]][3]
 
 A very small (*400b*) EventEmitter implementation for client- and server-side code.
 
@@ -52,5 +52,7 @@ util.inherits(MyClass, EventEmitter);
 - `off(type: string, listener?: Function): EventEmitter`
 - `emit(type: string, ...args: any[]): EventEmitter`
 
-[0]: https://travis-ci.org/ZauberNerd/small-eventemitter.svg
+[0]: https://img.shields.io/travis/ZauberNerd/small-eventemitter.svg
 [1]: https://travis-ci.org/ZauberNerd/small-eventemitter
+[2]: https://img.shields.io/coveralls/ZauberNerd/small-eventemitter.svg
+[3]: https://coveralls.io/r/ZauberNerd/small-eventemitter?branch=master
