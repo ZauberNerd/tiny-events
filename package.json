@@ -6,6 +6,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "npm run cover && npm run jshint && npm run jscs",
+    "test-browser": "zuul -- test/*.js",
     "jshint": "jshint -c .jshintrc lib/index.js",
     "jscs": "jscs --config .jscsrc lib/index.js",
     "cover": "istanbul cover tape test/*.js",
@@ -27,7 +28,8 @@
     "istanbul": "^0.3.2",
     "jscs": "~1.7.3",
     "jshint": "~2.5.6",
-    "tape": "~3.0.1"
+    "tape": "~3.0.1",
+    "zuul": "^1.13.0"
   },
   "testling": {
     "files": "test/*.js",

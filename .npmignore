@@ -6,4 +6,5 @@ test
 .jscsrc
 .jshintrc
 .travis.yml
+.zuul.yml
 *.sublime-workspace
