@@ -5,5 +5,5 @@ node_js:
 after_success: npm run coveralls && npm run test-browser
 env:
   global:
-  - secure: LARVYxq4Xr2k0JJ9MZvWxN/nlbifKKv6WqaMOe4vAIXX3UB7ubFDphjeJv3H6LYySpGD9GcqTTAY5nh3TdpPVaI4I/fRK0LRIS9imLgESfwMpqSXENYFNExa3x5bWb7uSkBWnuCltXpXw2lPkWImYC2tGgzi+zTc+OAiH6RAHRs=
-  - secure: GoQybtE6tjxGmGC0bZMOyz0B5ifg5zNP0psjw8oP7l9MCZXE5veYIv8Su0sQaiq+c/3pdvuPCtOfqTiOIF6U/z7fG0XACKxXu47ogX/qZ1tTUJQjqvmhWLHUDdQCkIjuQ/Wtk1YssxpbO0pquD5kC0d1gZ6PCNcxi2uHAaqAs28=
+  - secure: h68R79OhWFCdZ4ZG3K98VOseUXn1cy2Rh+DPQO4oCIU7ttw+eNUuzw+4bdKAp2wTvlRvqyYgMjE0XEMIJdamYYLsFXr7lUUgzbmtsc8s0x9GGF7lrCX9JvdgpYDTLYlLCkt734nD9QUfuFr/qbR54sK1BSbT/ut14PohpUiNMQU=
+  - secure: S7FOZtuDm0k6LCEuNVT20ISVDZX6EH5EZVvHnpap3TQkwz0p0UZGKj1MHj7pb/3/wIC8wl2bThRo4uY+jENKIHaP5Zo3DzqJ0m27U+OyZoMmE1XCIjCSuHA1regSJJo9+NF5xe9wovpNMJDT6lrdQ5pPElZT6jqVrU3Yd59DuOk=

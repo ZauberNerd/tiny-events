@@ -1,4 +1,5 @@
 # small-eventemitter [![Build Status][0]][1] [![Coverage Status][2]][3]
+[![Sauce Test Status][4]][5]
 
 A very small (*400b*) EventEmitter implementation for client- and server-side code.
 
@@ -56,3 +57,5 @@ util.inherits(MyClass, EventEmitter);
 [1]: https://travis-ci.org/ZauberNerd/small-eventemitter
 [2]: https://img.shields.io/coveralls/ZauberNerd/small-eventemitter.svg
 [3]: https://coveralls.io/r/ZauberNerd/small-eventemitter?branch=master
+[4]: https://saucelabs.com/browser-matrix/dom2wg-eventemitter.svg
+[5]: https://saucelabs.com/u/dom2wg-eventemitter
