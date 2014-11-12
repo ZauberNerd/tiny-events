@@ -1,11 +1,11 @@
-# small-eventemitter [![Build Status][0]][1] [![Coverage Status][2]][3]
+# tiny-events [![Build Status][0]][1] [![Coverage Status][2]][3]
 [![Sauce Test Status][4]][5]
 
-A very small (*400b*) EventEmitter implementation for client- and server-side code.
+A very tiny (*400b*) EventEmitter implementation for client- and server-side code.
 
 
 ## installation
-`npm install --save small-eventemitter`
+`npm install --save tiny-events`
 
 
 ## usage
@@ -13,7 +13,7 @@ instantiate the object directly..
 
 ```javascript
 // import the module
-var EventEmitter = require('small-eventemitter').EventEmitter;
+var EventEmitter = require('tiny-events').EventEmitter;
 
 // instantiate the object
 var events = new EventEmitter();
@@ -36,7 +36,7 @@ events.off('foo');
 ... or subclass it.
 ```javascript
 var utils = require('utils');
-var EventEmitter = require('small-eventemitter').EventEmitter;
+var EventEmitter = require('tiny-events').EventEmitter;
 
 function MyClass() {
     EventEmitter.call(this);
@@ -53,9 +53,9 @@ util.inherits(MyClass, EventEmitter);
 - `off(type: string, listener?: Function): EventEmitter`
 - `emit(type: string, ...args: any[]): EventEmitter`
 
-[0]: https://img.shields.io/travis/ZauberNerd/small-eventemitter.svg
-[1]: https://travis-ci.org/ZauberNerd/small-eventemitter
-[2]: https://img.shields.io/coveralls/ZauberNerd/small-eventemitter.svg
-[3]: https://coveralls.io/r/ZauberNerd/small-eventemitter?branch=master
+[0]: https://img.shields.io/travis/ZauberNerd/tiny-events.svg
+[1]: https://travis-ci.org/ZauberNerd/tiny-events
+[2]: https://img.shields.io/coveralls/ZauberNerd/tiny-events.svg
+[3]: https://coveralls.io/r/ZauberNerd/tiny-events?branch=master
 [4]: https://saucelabs.com/browser-matrix/dom2wg-eventemitter.svg
 [5]: https://saucelabs.com/u/dom2wg-eventemitter

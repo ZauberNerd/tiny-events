@@ -1,8 +1,8 @@
 {
-  "name": "small-eventemitter",
+  "name": "tiny-events",
   "version": "1.0.1",
   "license": "MIT",
-  "description": "A very small EventEmitter implementation for client- and server-side code.",
+  "description": "A very tiny EventEmitter implementation for client- and server-side code.",
   "main": "lib/index.js",
   "scripts": {
     "test": "npm run cover && npm run jshint && npm run jscs",
@@ -18,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com:ZauberNerd/small-eventemitter.git"
+    "url": "git://github.com:ZauberNerd/tiny-events.git"
   },
   "bugs": {
-    "url": "https://github.com/ZauberNerd/small-eventemitter/issues"
+    "url": "https://github.com/ZauberNerd/tiny-events/issues"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
